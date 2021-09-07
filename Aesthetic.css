@@ -10,7 +10,8 @@ body {
 }
 
 .bookmark {
-    margin-bottom: 1.9em;
+    font-size: 80%;
+    margin-bottom: 1.8em;
     visibility: hidden;
 }
 
@@ -28,6 +29,7 @@ a[class*=textFade] {
     float: left;
     padding: 1em;
     text-decoration: none;
+    font-size: 80%;
 }
 
 
