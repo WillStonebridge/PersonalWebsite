@@ -1,0 +1,177 @@
+body {
+    background-image: url("CitySkyline.gif");
+    background-position-y: 30%;
+    background-size: 120%;
+    background-position-x: center;
+    background-attachment: fixed;
+    margin: 0;
+    color: white;
+    font-family: Helvetica, Serif;
+}
+
+.bookmark {
+    margin-bottom: 1.9em;
+    visibility: hidden;
+}
+
+/*<editor-fold desc="Top Bar">*/
+
+div.topBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(109, 109, 109, 0.75);
+}
+
+a[class*=textFade] {
+    float: left;
+    padding: 1em;
+    text-decoration: none;
+}
+
+
+/*<editor-fold desc="Deals with text fades">*/
+[class*=textFade] {
+    color: #ffffff;
+    transition: color 1s
+}
+
+.textFade1:hover {
+    color: rgb(0, 216, 255);
+}
+
+.textFade2:hover {
+    color: rgb(255, 8, 82);
+}
+
+.textFade3:hover {
+    color: rgb(51, 255, 36);
+}
+
+.textFade4:hover {
+    color: rgb(255, 33, 255);
+}
+/*</editor-fold>*/
+
+/*</editor-fold>*/
+
+/*<editor-fold desc="Welcome Block">*/
+
+#welcomeBlock {
+    margin: 10% auto;
+    align-self: center;
+    width: 25%;
+    background-color: rgba(215, 214, 212, 0.64);
+    padding: 1%
+}
+
+[id*=intro] {
+    margin: 0;
+    text-align: left;
+
+}
+
+#intro1 {
+    font-weight: bold;
+    color: white;
+}
+
+/*</editor-fold>*/
+
+/*<editor-fold desc="Sections">*/
+
+div[class*=sectionBox] {
+    color: white;
+    overflow: hidden;
+    padding: 0 5%;
+    background-color: rgba(215, 214, 212, 0.50);
+    transition: background-color 1s;
+    font-size: large;
+}
+
+/*<editor-fold desc="Fades for each section">*/
+.sectionBoxAbout:hover {
+    background-color: rgba(0, 216, 255, 0.50);;
+}
+
+.sectionBoxReferences:hover {
+    background-color: rgba(255, 8, 82, 0.50);;
+}
+
+.sectionBoxSkills:hover {
+    background-color: rgba(51, 255, 36, 0.50);;
+}
+
+.sectionBoxPortfolio:hover {
+    background-color: rgba(255, 33, 255, 0.64);;
+}
+/*</editor-fold>*/
+
+.sectionHead {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.sectionText {
+    overflow: auto;
+    font-size: large;
+}
+
+.sectionSeparator {
+    visibility: hidden;
+    margin: 10em auto;
+}
+
+/*</editor-fold>*/
+
+/*<editor-fold desc="Review Assets">*/
+
+.slideContainer {
+    font-family: 'Helvetica', Serif;
+    font-size: large;
+    min-height: max-content;
+}
+
+.slide {
+    display: none;
+}
+
+.pointerBox {
+    font-size: large;
+    text-align: center;
+    padding: 3%;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.contact {
+    text-align: center;
+    font-size: x-large;
+    padding: 5%;
+}
+
+/*</editor-fold>*/
+
+/*Skill Assets*/
+.skillList1 {
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.skillList2 {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+[class*=skillList] .skillHeader {
+    text-decoration: underline;
+    text-align: center;
+}
